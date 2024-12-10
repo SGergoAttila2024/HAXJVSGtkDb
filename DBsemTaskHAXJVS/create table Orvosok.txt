@@ -1,0 +1,3 @@
+
+create table Orvosok (Okód char(5) Primary key, Név char(30) NOT NULL,
+Terület char(30), Telszám char(12), Email char(25) Default "Nincs");
